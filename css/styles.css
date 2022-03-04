@@ -14,7 +14,8 @@ a {
   color: #fff;
   tab-size: bold;
 }
-/* footer section */
+/* end global styling */
+/* start footer section */
 .footer {
   background-color: #222722;
   color: #fff;
@@ -23,3 +24,4 @@ a {
   justify-content: space-around;
   align-items: center;
 }
+/* end footer section  */
