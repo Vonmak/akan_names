@@ -15,31 +15,35 @@
     </div>
 
     <div class="main">
-      <div class="description">
-        <p>This program helps you know your Akan Name.</p>
-        <p>
-          It takes in your Birthday and your Gender, then gives you back your
-          Akan Name according to the day of the week you were born.
-        </p>
+      <div class="main2">
+        <div class="description">
+          <p>This program helps you know your Akan Name.</p>
+          <p>
+            It takes in your Birthday and your Gender, then gives you back your
+            Akan Name according to the day of the week you were born.
+          </p>
+        </div>
+
+        <div class="calc">
+          <div class="formdata">
+            <form action="">
+              <label for="date">Enter your Birthday:</label>
+              <input type="date" id="date" />
+              <br />
+              <br />
+              <label for="gender">Select your Gender:</label>
+              <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+
+              <button type="submit">SUBMIT</button>
+            </form>
+          </div>
+
+          <div id="display"></div>
+        </div>
       </div>
-
-      <div class="formdata">
-        <form action="">
-          <label for="date">Enter your Birthday:</label>
-          <input type="date" id="date" />
-          <br />
-          <br />
-          <label for="gender">Select your Gender:</label>
-          <select name="gender" id="gender">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-          </select>
-
-          <button type="submit">SUBMIT</button>
-        </form>
-      </div>
-
-      <div id="display"></div>
     </div>
     <div class="footer">
       <small>&copy; Copyright 2021, Created by: <em>Victor Ondari</em></small>
