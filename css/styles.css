@@ -15,6 +15,17 @@ a {
   tab-size: bold;
 }
 /* end global styling */
+
+/* start of display box */
+#display {
+  background-color: #c1e5bd;
+  height: 70px;
+  width: 200px;
+  color: #222722;
+  margin: auto;
+}
+/* end of display box */
+
 /* start footer section */
 .footer {
   background-color: #222722;
