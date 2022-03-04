@@ -10,3 +10,16 @@
   width: 100%;
   color: #c1e5bd;
 }
+a {
+  color: #fff;
+  tab-size: bold;
+}
+/* footer section */
+.footer {
+  background-color: #222722;
+  color: #fff;
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
