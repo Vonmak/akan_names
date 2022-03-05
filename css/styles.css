@@ -75,13 +75,25 @@ p {
 .formdata {
   background-color: #222722;
   margin-bottom: 50px;
-  height: 200px;
+  height: 300px;
   width: 500px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 20px #c1e5bd;
+}
+select {
+  width: 100px;
+  border-radius: 10px;
+}
+button {
+  background-color: #636763;
+  color: #c1e5bd;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: large;
 }
 
 #display {
