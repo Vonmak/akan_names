@@ -34,6 +34,7 @@ label {
 
 p {
   color: #c1e5bd;
+  margin-bottom: 20px;
 }
 /* end global styling */
 
@@ -75,7 +76,7 @@ p {
 .formdata {
   background-color: #222722;
   margin-bottom: 50px;
-  height: 300px;
+  height: 350px;
   width: 500px;
   border-radius: 15px;
   display: flex;
@@ -136,10 +137,3 @@ h2:hover {
     color: black;
   }
 }
-/* @media screen and (min-width: 801px) {
-  body {
-    width: 220px;
-    float: left;
-    padding: 15px;
-  }
-} */
