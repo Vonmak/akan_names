@@ -10,9 +10,9 @@ function myDate() {
   let one = document.getElementById("male");
   let two = document.getElementById("female");
 
-  // // these are arrays for the are the akan names given by gender
-  // let male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-  // let female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  // these are arrays for the are the akan names given by gender
+  let male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  let female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
   // // used this method to calculate the local time selected by the user
   // let d = new Date(thedate);
