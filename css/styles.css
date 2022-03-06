@@ -94,6 +94,7 @@ button {
   height: 50px;
   border-radius: 15px;
   font-size: large;
+  transition: 0.5s;
 }
 
 #display {
@@ -103,6 +104,9 @@ button {
   color: #222722;
   box-shadow: 0 0 50px #222722;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* end of form section */
 
@@ -116,3 +120,26 @@ button {
   align-items: center;
 }
 /* end footer section  */
+button:hover {
+  /* border: #c1e5bd; */
+  /* background-color: #222722; */
+  border-color: #c1e5bd;
+}
+h2 {
+  transition-delay: 0.5;
+}
+h2:hover {
+  font-size: xx-large;
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  body {
+    color: black;
+  }
+}
+/* @media screen and (min-width: 801px) {
+  body {
+    width: 220px;
+    float: left;
+    padding: 15px;
+  }
+} */
