@@ -15,17 +15,17 @@ function myDate() {
   let female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
   // used this method to calculate the local time selected by the user
-  let d = new Date(thedate);
+  let dat = new Date(thedate);
 
   // this picks the day of the week from the day date selected
-  let day = d.getDay();
+  let day = dat.getDay();
 
-  // // checks wether the gender boxes have been selected
-  // if (one.checked === true) {
-  //   display.innerHTML = "Your Akan name is:   " + male[day];
-  // } else if (two.checked === true) {
-  //   display.innerHTML = "Your Akan name is:   " + female[day];
-  // } else {
-  //   alert("Please select given data on the form provided!!");
-  // }
+  // checks wether the gender boxes have been selected
+  if (one.checked === true) {
+    display.innerHTML = "Your Akan name is:   " + male[day];
+  } else if (two.checked === true) {
+    display.innerHTML = "Your Akan name is:   " + female[day];
+  } else {
+    alert("Please select given data on the form provided!!");
+  }
 }
