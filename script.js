@@ -10,6 +10,17 @@ function myDate() {
   let one = document.getElementById("male");
   let two = document.getElementById("female");
 
+  // adding an array for days of the week
+  let dayofWeek = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+
   // these are arrays for the are the akan names given by gender
   let male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
   let female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
@@ -22,9 +33,17 @@ function myDate() {
 
   // checks wether the gender boxes have been selected
   if (one.checked === true) {
-    display.innerHTML = "Your Akan name is:   " + male[day];
+    display.innerHTML =
+      "You were born on a " +
+      dayofWeek[day] +
+      " and Your Akan name is:   " +
+      male[day];
   } else if (two.checked === true) {
-    display.innerHTML = "Your Akan name is:   " + female[day];
+    display.innerHTML =
+      "You were born on a " +
+      dayofWeek[day] +
+      "and Your Akan name is:   " +
+      female[day];
   } else {
     alert("Please select given data on the form provided!!");
   }
