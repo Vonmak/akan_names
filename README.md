@@ -2,17 +2,13 @@
 
 ip2
 
-## AUTHOR
-
-[Vonmak]https://github.com/Vonmak
-
 ## description
 
 This program is used to identify akan names from a given birthday and gender input.
 
 ## live-page
 
-https://vonmak.github.io/ip2/
+[view site](https://vonmak.github.io/akan_names/)
 
 ## process
 
